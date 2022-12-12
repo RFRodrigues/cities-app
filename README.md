@@ -1,46 +1,33 @@
-# Getting Started with Create React App
+# Instructions to run the project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- npm install
+- npm start
 
-## Available Scripts
+# xgeeks tech assignment
 
-In the project directory, you can run:
+In this repo you can find the tech challenge we use to evaluate our candidates as part of the interview process.
 
-### `npm start`
+Here, you can find the designated assignment details to be evaluated:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [ASSIGNMENT](assignment.md)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+>When delivering the assignments, the closer to production ready it is, the better.
+It's a great plus if you make our job of reviewing the challenge easier by virtualizing/containerizing it so that it runs smoothly on any machine and also give detailed instructions on how to run it.
 
-### `npm test`
+We will discuss the project from a few different points:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Architecture**. You’re welcome to organize the code in a way that you believe suits best. Here, we’ll discuss possible alternatives and exchange a few ideas
 
-### `npm run build`
+**Engineering**. We’ll discuss this point based on the actual code: how it’s organized and written, if it’s easy to get picked up by a new engineer in a team (or in community, if we talk about open source). Of course it’s important that the code is readable, but we’ll go beyond that and talk about coherence of the codebase and its hypothetical (or potential) future.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Tooling**. How does a completely unfamiliar user with basic technical background get the code and run it? What programs are expected to be available on user’s computer before installing the tool? How could that user potentially do a micro-deploy on their own machine?
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Documentation**. Good code is one that documents itself, but sometimes it isn’t enough. We’ll discuss things such as quick start guide, code style and contribution guideline. It’s important that a new team member that joins the team and gets introduced to the codebase, or another team that develops integration, has a really good time exploring the code.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+In order to do the assignment please **fork** this repo and perform a **PR** when ready in order for us to evaluate the assignment and continue with the interview process.
 
-### `npm run eject`
+Remember, we are only building a team! There will be a lot of opportunities to learn and go through peer-driven quality review, so we care more about what knowledge and experience you bring to the team. Thank you for taking the time, and we are looking forward to our next interview that will follow up on this little project.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### In case of issues or doubts
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Please send an email to **career@xgeeks.io** and will get back to you as soon as possible

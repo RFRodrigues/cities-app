@@ -1,0 +1,130 @@
+.box {
+  margin: 0 3rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border: #bfbfbf solid 2px;
+  width: 300px;
+  height: 250px;
+  background-color: white;
+}
+
+.list{
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.list > ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+.list li:first-child {
+  border-top: #bfbfbf solid 1px;
+}
+
+.list li {
+  border-bottom: #bfbfbf solid 1px;
+  transition: 0.3s;
+}
+
+.list li:hover {
+  cursor: pointer;
+  background-color: rgb(217, 243, 252);
+}
+
+.selectedcity {
+  background-color: rgb(152, 186, 197);
+}
+
+.newcity {
+  display: flex;
+  flex-direction: column;
+  width: 304px;
+  margin: auto;
+  
+}
+
+.newcityinput {
+  height: 2rem;
+  border-radius: 0.5rem;
+  border: #bfbfbf solid 2px;
+  padding-left: 1rem;
+  margin-top: 1rem;
+  font-size: calc(10px + 1vmin);
+  height: 3rem;
+}
+
+.newcitybutton {
+  height: 2rem;
+  border-radius: 0.5rem;
+  width: 50%;
+  margin: 0.5rem auto;
+  border: #bfbfbf solid 2px;
+  transition: 0.3s;
+  font-size: calc(10px + 1vmin);
+  height: 3rem;
+}
+
+.newcitybutton:hover {
+  background-color: rgb(194, 236, 250);
+  border: #929292 solid 2px;
+  cursor: pointer;
+}
+
+.deletecitybutton {
+  cursor: pointer;
+  background-color: rgba(202, 51, 51, 0.582);
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  border: #bfbfbf solid 2px;
+  border-top: none;
+  font-size: calc(10px + 1vmin);
+  height: 3rem;
+  transition: 0.3s;
+}
+
+.deletecitybuttonhidden {
+  cursor: pointer;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  border: #bfbfbf solid 2px;
+  border-top: none;
+  height: 3rem;
+  transition: 0.3s;
+  visibility: hidden;
+}
+
+.deletecitybutton:hover {
+  cursor: pointer;
+  background-color: rgba(199, 28, 16, 0.822);
+}
+
+/* Scrollbar CSS */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  border-left: #bfbfbf solid 1px;
+  border-radius: 0.5rem;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #bfbfbf; 
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #949494; 
+}
+
+
